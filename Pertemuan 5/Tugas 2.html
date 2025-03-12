@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur HTML Berwarna</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: #333;
+        }
+        header {
+            background-color: #ff5733;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            border: 3px solid #d43f00;
+            border-radius: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+            color: yellow;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .content {
+            width: 60%;
+            border: 3px solid #e67e22;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        article {
+            background-color: #ffcc00;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: 2px solid #d4a017;
+        }
+        aside {
+            width: 35%;
+            background-color: #33ccff;
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+            border: 3px solid #1a75bb;
+        }
+        footer {
+            background-color: #8e44ad;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            color: white;
+            border: 3px solid #5e3370;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+        <nav>
+            <ul>
+                <li>Nav1</li>
+                <li>Nav2</li>
+                <li>Nav3</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="content">
+            <article>
+                <h4>Pengantar HTML</h4>
+                <p>HyperText Markup Language (HTML) adalah bahasa markup standar yang digunakan untuk membuat halaman web. HTML menyediakan struktur dasar dan konten untuk halaman web dan bekerja bersama dengan Cascading Style Sheets (CSS) untuk presentasi visual halaman web dan JavaScript untuk perilaku interaktif.</p>
+            </article>
+            <article>    
+                <h4>Elemen Semantik HTML</h4>
+                <p>Elemen semantik HTML adalah elemen-elemen yang memiliki makna atau arti yang spesifik untuk memudahkan mesin pencari dan pengembang web memahami struktur halaman web. Elemen ini membantu meningkatkan aksesibilitas dan pengalaman pengguna pada halaman web.</p>
+            </article>
+        </section>
+    
+        <aside>
+            <h5>Keajaiban Alam: Great Barrier Reef</h5>
+            <p>Great Barrier Reef adalah sistem terumbu karang terbesar di dunia, membentang sejauh lebih dari 2.300 kilometer di sepanjang pantai timur Australia. Terumbu karang ini terdiri dari jutaan polip karang individu yang hidup bersama dalam simbiosis dengan ganggang fotosintesis. Great Barrier Reef adalah rumah bagi berbagai macam kehidupan laut, termasuk ikan, hiu, penyu, dan terumbu karang.</p>
+        </aside>
+    </main>
+    
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</body>
+</html>

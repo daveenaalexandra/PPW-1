@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Contoh Penggunaan Tag HTML</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Data Pengguna</legend>
+            <input type="text" name="nama" placeholder="Nama">
+        </fieldset>
+        <input list="kota-list" name="kota" placeholder="Kota">
+        <datalist id="kota-list">
+            <option value="Jakarta">
+        </datalist>
+        <select name="pekerjaan">
+            <optgroup label="Teknologi">
+                <option>Programmer</option>
+            </optgroup>
+        </select>
+        <input type="range" min="0" max="100" oninput="hasil.value = this.value">
+        <output id="hasil">50</output> 
+    </body>
+</html>

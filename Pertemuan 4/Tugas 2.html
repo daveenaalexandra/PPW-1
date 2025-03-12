@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Form Contoh</title>
+</head>
+<body>
+
+<img src="foto form.JPG" width="400" height="225">
+<h2>Form Pendaftaran</h2>
+<div class="container">
+    <form>
+
+        <div style="margin-bottom: 0.5cm;">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+        </div>
+        
+        <div style="margin-bottom: 0.5cm;">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <img src="email.jpeg" align="top" width="25" height="25">
+        </div>
+        
+        <div style="margin-bottom: 0.5cm;">
+            <label for="telepon">Nomor Telepon:</label>
+            <input type="tel" id="telepon" name="telepon">
+        </div>
+        
+        <div style="margin-bottom: 0.5cm;">
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" id="pria" name="jenis_kelamin" value="pria">
+            <label for="pria">Pria</label><br>
+            <input type="radio" id="wanita" name="jenis_kelamin" value="wanita">
+            <label for="wanita">Wanita</label>
+        </div>
+        
+        <div style="margin-bottom: 0.5cm;">
+            <label for="hobi">Hobi:</label><br>
+            <input type="checkbox" id="hobi1" name="hobi" value="membaca">
+            <label for="hobi1">Membaca</label><br>
+            <input type="checkbox" id="hobi2" name="hobi" value="olahraga">
+            <label for="hobi2">Olahraga</label><br>
+            <input type="checkbox" id="hobi3" name="hobi" value="berkebun">
+            <label for="hobi3">Berkebun</label>
+        </div>
+        
+        <div style="margin-bottom: 0.5cm;">
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea>
+        </div>
+        
+        <button type="submit">Kirim</button>
+    </form>
+
+    <aside>
+        <img src="foto form2.JPG" align="bottom" width="400" height="225">
+    </aside>
+</div>
+</body>
+</html>
